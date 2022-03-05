@@ -1,0 +1,89 @@
+﻿<?xm1 version="1.0" encoding="utf-8" ?>
+<ContentPage   xmlns="http://xamarin.com/schemas/2014/forms"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+               xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+               mc:Ignorable="d"
+               x:Class="Deslogue.MainPage"
+               Visual = "Material">
+
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center">
+        <Label 
+            Text="DESLOGUE" FontSize="25" TextColor="Black" HorizontalOptions="Center"/>
+        <Label
+            Text=" Bienvenidos a la APP de Deslogue en Quetzales!" FontAttributes="Bold" FontSize="15" TextColor="Black"/>
+
+        <Entry
+            Placeholder="Ingrese la cantidad:"
+            Keyboard="Numeric"
+            x:Name="entrytexto"/>
+
+        <Button Text="Ver resultados"
+        VerticalOptions="Center"
+        Clicked="Button_Clicked"
+        BackgroundColor="DarkGray"
+        x:Name="buttonTexto"/>
+
+        <Label FontSize="20"
+       VerticalOptions="Center"
+       TextColor="Black"
+       x:Name="Ca200"/>
+
+        <Label FontSize="20"
+       VerticalOptions="Center"
+       TextColor="Black"
+       x:Name="Ca100"/>
+
+        <Label FontSize="20"
+       VerticalOptions="Center"
+       TextColor="Black"
+       x:Name="Ca50"/>
+
+        <Label FontSize="20"
+       VerticalOptions="Center"
+       TextColor="Black"
+       x:Name="Ca20"/>
+
+        <Label FontSize="20"
+       VerticalOptions="Center"
+       TextColor="Black"
+       x:Name="Ca10"/>
+
+        <Label FontSize="20"
+       VerticalOptions="Center"
+       TextColor="Black"
+       x:Name="Ca5"/>
+
+        <Label FontSize="20"
+       VerticalOptions="Center"
+       TextColor="Black"
+       x:Name="Ca1"/>
+
+        <Label FontSize="20"
+       VerticalOptions="Center"
+       TextColor="Black"
+       x:Name="Ca050"/>
+
+        <Label FontSize="20"
+       VerticalOptions="Center"
+       TextColor="Black"
+       x:Name="Ca025"/>
+
+        <Label FontSize="20"
+       VerticalOptions="Center"
+       TextColor="Black"
+       x:Name="Ca010"/>
+
+        <Label FontSize="20"
+       VerticalOptions="Center"
+       TextColor="Black"
+       x:Name="Ca05"/>
+
+        <Label FontSize="20"
+       VerticalOptions="Center"
+       TextColor="Black"
+       x:Name="Ca01"/>
+
+    </StackLayout>
+</ContentPage>
